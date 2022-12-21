@@ -1,0 +1,55 @@
+
+ Optimizer: RMSProp 
+Model: "sequential_5"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ resizing_5 (Resizing)       (None, 224, 224, 3)       0         
+                                                                 
+ conv2d_25 (Conv2D)          (None, 56, 56, 96)        34944     
+                                                                 
+ lambda_10 (Lambda)          (None, 56, 56, 96)        0         
+                                                                 
+ activation_25 (Activation)  (None, 56, 56, 96)        0         
+                                                                 
+ max_pooling2d_10 (MaxPoolin  (None, 27, 27, 96)       0         
+ g2D)                                                            
+                                                                 
+ conv2d_26 (Conv2D)          (None, 7, 7, 256)         614656    
+                                                                 
+ lambda_11 (Lambda)          (None, 7, 7, 256)         0         
+                                                                 
+ activation_26 (Activation)  (None, 7, 7, 256)         0         
+                                                                 
+ max_pooling2d_11 (MaxPoolin  (None, 3, 3, 256)        0         
+ g2D)                                                            
+                                                                 
+ conv2d_27 (Conv2D)          (None, 1, 1, 384)         885120    
+                                                                 
+ activation_27 (Activation)  (None, 1, 1, 384)         0         
+                                                                 
+ conv2d_28 (Conv2D)          (None, 1, 1, 384)         1327488   
+                                                                 
+ activation_28 (Activation)  (None, 1, 1, 384)         0         
+                                                                 
+ conv2d_29 (Conv2D)          (None, 1, 1, 256)         884992    
+                                                                 
+ activation_29 (Activation)  (None, 1, 1, 256)         0         
+                                                                 
+ flatten_5 (Flatten)         (None, 256)               0         
+                                                                 
+ dense_15 (Dense)            (None, 4096)              1052672   
+                                                                 
+ dropout_10 (Dropout)        (None, 4096)              0         
+                                                                 
+ dense_16 (Dense)            (None, 4096)              16781312  
+                                                                 
+ dropout_11 (Dropout)        (None, 4096)              0         
+                                                                 
+ dense_17 (Dense)            (None, 3)                 12291     
+                                                                 
+=================================================================
+Total params: 21,593,475
+Trainable params: 21,593,475
+Non-trainable params: 0
+_________________________________________________________________
