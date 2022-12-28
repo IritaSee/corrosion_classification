@@ -1,0 +1,55 @@
+
+ Optimizer: 00001 
+Model: "sequential_4"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ resizing_4 (Resizing)       (None, 224, 224, 3)       0         
+                                                                 
+ conv2d_20 (Conv2D)          (None, 56, 56, 96)        34944     
+                                                                 
+ lambda_8 (Lambda)           (None, 56, 56, 96)        0         
+                                                                 
+ activation_20 (Activation)  (None, 56, 56, 96)        0         
+                                                                 
+ max_pooling2d_8 (MaxPooling  (None, 27, 27, 96)       0         
+ 2D)                                                             
+                                                                 
+ conv2d_21 (Conv2D)          (None, 7, 7, 256)         614656    
+                                                                 
+ lambda_9 (Lambda)           (None, 7, 7, 256)         0         
+                                                                 
+ activation_21 (Activation)  (None, 7, 7, 256)         0         
+                                                                 
+ max_pooling2d_9 (MaxPooling  (None, 3, 3, 256)        0         
+ 2D)                                                             
+                                                                 
+ conv2d_22 (Conv2D)          (None, 1, 1, 384)         885120    
+                                                                 
+ activation_22 (Activation)  (None, 1, 1, 384)         0         
+                                                                 
+ conv2d_23 (Conv2D)          (None, 1, 1, 384)         1327488   
+                                                                 
+ activation_23 (Activation)  (None, 1, 1, 384)         0         
+                                                                 
+ conv2d_24 (Conv2D)          (None, 1, 1, 256)         884992    
+                                                                 
+ activation_24 (Activation)  (None, 1, 1, 256)         0         
+                                                                 
+ flatten_4 (Flatten)         (None, 256)               0         
+                                                                 
+ dense_12 (Dense)            (None, 4096)              1052672   
+                                                                 
+ dropout_8 (Dropout)         (None, 4096)              0         
+                                                                 
+ dense_13 (Dense)            (None, 4096)              16781312  
+                                                                 
+ dropout_9 (Dropout)         (None, 4096)              0         
+                                                                 
+ dense_14 (Dense)            (None, 3)                 12291     
+                                                                 
+=================================================================
+Total params: 21,593,475
+Trainable params: 21,593,475
+Non-trainable params: 0
+_________________________________________________________________
