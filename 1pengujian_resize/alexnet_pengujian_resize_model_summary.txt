@@ -3,3 +3,7 @@
 None
  Ukuran gambar: 224 
 None
+ Ukuran gambar: 128 
+None
+ Ukuran gambar: 224 
+None

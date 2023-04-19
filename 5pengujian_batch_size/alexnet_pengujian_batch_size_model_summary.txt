@@ -1,0 +1,9 @@
+--------==== hasil model summary dari percobaan resize ====--------
+ Ukuran batch: 8 
+None
+ Ukuran batch: 16 
+None
+ Ukuran batch: 24 
+None
+ Ukuran batch: 32 
+None

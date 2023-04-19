@@ -1,0 +1,9 @@
+--------==== hasil model summary dari percobaan resize ====--------
+ Ukuran gambar: 8 
+None
+ Ukuran gambar: 16 
+None
+ Ukuran gambar: 24 
+None
+ Ukuran gambar: 32 
+None

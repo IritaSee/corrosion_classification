@@ -1,0 +1,9 @@
+                   precision    recall  f1-score   support
+
+         Galvanis       0.23      0.20      0.21        15
+Pitting Corrosion       0.35      0.29      0.31        28
+  field corrosion       0.35      0.43      0.39        30
+
+         accuracy                           0.33        73
+        macro avg       0.31      0.31      0.31        73
+     weighted avg       0.33      0.33      0.32        73
